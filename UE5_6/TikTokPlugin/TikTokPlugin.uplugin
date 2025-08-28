@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "TikTokPlugin",
+	"Description": "Build realtime, interactive TikTok Live games with Unreal! Connect via EulerStream, capture chat/gift/like/follow/join events. Auto-queue gifts by tag or value, and drive team leaderboards -- all Blueprint-first and ready for showtime.",
+	"Category": "Other",
+	"CreatedBy": "Shiba Games",
+	"CreatedByURL": "https://github.com/RealShibaGames/TikTokPlugin/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "https://discord.com/invite/N3KSxzvDX8",
+	"EngineVersion": "5.6.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "TikTokPlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Core",
+				"CoreUObject"
+			]
+		}
+	]
+}
